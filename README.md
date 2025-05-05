@@ -1,15 +1,61 @@
-# buscandoLivros - Livroteca
-Livroteca é um projeto web simples que permite aos usuários pesquisar informações sobre livros usando a API do Google Books. O usuário pode digitar o título do livro na barra de pesquisa, e os resultados mostrarão detalhes como título, sinopse, autor(es) e categorias do livro, além de fornecer links para mais informações.
-Estrutura do Projeto
-index.html: Estrutura principal da interface. Contém um campo de pesquisa e uma seção para exibir os resultados da busca.
-styles.css: Arquivo de estilo para o layout e design da página.
-app.js: Script que realiza a busca de livros e manipula os resultados para exibição.
-images/logo_resized.png: Favicon para a página.
-Como Funciona:
-O usuário insere o nome do livro no campo de busca.
-O botão "Pesquisar" aciona a função pesquisar() no arquivo app.js.
-A função envia uma requisição à API do Google Books com o termo pesquisado.
-Os resultados são filtrados para incluir apenas os livros cujo título contém o termo pesquisado.
-Os detalhes dos livros, incluindo título, autor(es), sinopse e categorias, são exibidos na página, com links para mais informações.
-Dependências:
-Conexão com a internet para consumir a API do Google Books.
+# 📚 Livroteca
+
+**Livroteca** é um projeto web simples que permite aos usuários pesquisar informações sobre livros utilizando a [API do Google Books](https://developers.google.com/books). Com uma interface amigável, o usuário pode buscar livros pelo título e visualizar detalhes como sinopse, autor(es), categorias e links para mais informações.
+
+---
+
+## 🚀 Como Funciona
+
+1. O usuário insere o nome do livro na barra de pesquisa.
+2. Ao clicar no botão **Pesquisar**, a função `pesquisar()` no `app.js` é acionada.
+3. Essa função envia uma requisição para a **API do Google Books** com o termo pesquisado.
+4. Os resultados são filtrados para exibir apenas livros cujo **título contenha o termo buscado**.
+5. Para cada livro, são exibidas informações como:
+   - Título
+   - Autor(es)
+   - Sinopse
+   - Categorias
+   - Link para mais detalhes
+
+---
+
+## 🗂️ Estrutura do Projeto
+
+Livroteca/
+├── index.html # Estrutura principal da interface
+├── styles.css # Estilos e layout da página
+├── app.js # Lógica da busca e manipulação dos dados
+└── images/
+└── logo_resized.png # Favicon do site
+
+---
+
+## 🌐 Dependências
+
+- Conexão com a internet (necessária para acessar a API do Google Books)
+- Navegador moderno com suporte a JavaScript
+
+---
+
+## 📌 Observações
+
+- Este projeto não utiliza backend, banco de dados ou frameworks externos.
+- É ideal como exemplo educacional para quem deseja aprender a consumir APIs REST usando HTML, CSS e JavaScript puro.
+
+---
+
+## 🖼️ Demonstração 
+
+- Tela Inicial
+![image](https://github.com/user-attachments/assets/bf4766d4-3c1e-4d81-98fd-1510262a5350)
+
+- Tela de Pesquisa
+
+![image](https://github.com/user-attachments/assets/f18281e6-6f50-476b-8077-a10f415239c1)
+
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
