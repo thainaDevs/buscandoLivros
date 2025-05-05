@@ -22,11 +22,12 @@
 ## 🗂️ Estrutura do Projeto
 
 Livroteca/
-├── index.html # Estrutura principal da interface
-├── styles.css # Estilos e layout da página
-├── app.js # Lógica da busca e manipulação dos dados
+├── index.html              # Estrutura principal da interface
+├── styles.css              # Estilos e layout da página
+├── app.js                  # Lógica da busca e manipulação dos dados
 └── images/
-└── logo_resized.png # Favicon do site
+    └── logo_resized.png    # Favicon do site
+
 
 ---
 
